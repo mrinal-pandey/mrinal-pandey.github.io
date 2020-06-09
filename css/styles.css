@@ -1043,8 +1043,8 @@ body {
 
 @media (max-width: 750px) {
   .carousel-image {
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 175px;
   }
 }
 
