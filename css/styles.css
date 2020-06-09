@@ -1074,6 +1074,9 @@ body {
   .moments-title {
     font-size: 1.6rem;
   }
+  .mic-image {
+    width: 50%;
+  }
   .mic-images-title {
     font-size: 1.6rem;
   }
