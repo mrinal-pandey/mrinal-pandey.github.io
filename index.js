@@ -10,14 +10,14 @@ var timer = setInterval(function() {
 }, 100);
 
 // Enlarge icons on hover
-$(".sidebar i").on("mouseover", function() {
-    $(this).removeClass("fa-lg");
-    $(this).addClass("fa-2x");
-})
-$(".sidebar i").on("mouseout", function() {
-    $(this).removeClass("fa-2x");
-    $(this).addClass("fa-lg");
-})
+// $(".sidebar i").on("mouseover", function() {
+//     $(this).removeClass("fa-lg");
+//     $(this).addClass("fa-2x");
+// })
+// $(".sidebar i").on("mouseout", function() {
+//     $(this).removeClass("fa-2x");
+//     $(this).addClass("fa-lg");
+// })
 
 // Display current year in footer
 const currentYear = new Date().getFullYear();
