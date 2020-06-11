@@ -1,3 +1,9 @@
+// Fade in the name
+$("#name").hide().fadeIn(3000);
+
+// Fade in the sidebar
+$(".sidebar").hide().fadeIn(2000);
+
 // To create a typing animation
 const oneLiner = "a zealous techie";
 var index = 0;
@@ -8,16 +14,6 @@ var timer = setInterval(function() {
   $("#one-liner").text(oneLiner.substring(0, index));
   index = index + 1;
 }, 100);
-
-// Enlarge icons on hover
-// $(".sidebar i").on("mouseover", function() {
-//     $(this).removeClass("fa-lg");
-//     $(this).addClass("fa-2x");
-// })
-// $(".sidebar i").on("mouseout", function() {
-//     $(this).removeClass("fa-2x");
-//     $(this).addClass("fa-lg");
-// })
 
 // Display current year in footer
 const currentYear = new Date().getFullYear();

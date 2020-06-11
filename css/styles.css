@@ -31,7 +31,6 @@ body {
 
 .nav-link:hover{
   color: #79d70f;
-  font-size: 1.5rem;
   border-style: groove;
   border-color: #eef5b2;
 }
@@ -80,6 +79,7 @@ body {
 #name {
   font-size: 6rem;
   color: #eef5b2;
+  font-family: 'Pridi', serif;
   display: block;
   text-shadow: 2px 2px 4px #a8df65;
   letter-spacing: 0.5rem;
@@ -898,7 +898,7 @@ body {
 .achievement-image {
   margin-top: 10%;
   width: 100%;
-  border-radius: 100%;
+  border-radius: 5%;
   border-color: #000;
   border-width: 3px;
   border-style: solid;
@@ -1103,14 +1103,6 @@ body {
   font-size: 2rem;
   letter-spacing: 0.1rem;
   margin-bottom: 3%;
-}
-
-.contact-div {
-  margin-top: 5%;
-}
-
-.contact {
-  margin: 7%;
 }
 
 .contact-col{
