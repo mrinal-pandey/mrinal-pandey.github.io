@@ -1,9 +1,6 @@
 // Fade in the name
 $("#name").hide().fadeIn(3000);
 
-// Fade in the sidebar
-$(".sidebar").hide().fadeIn(2000);
-
 // To create a typing animation
 const oneLiner = "a zealous techie";
 var index = 0;
