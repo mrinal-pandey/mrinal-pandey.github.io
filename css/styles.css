@@ -1103,13 +1103,14 @@ body {
   margin-bottom: 3%;
 }
 
-.contact-col{
-  text-align: left;
+.contact-div {
+  margin-top: 5%;
 }
 
 .contact-tagline {
   font-size: 1.5rem;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
+  margin-top: 3%;
   letter-spacing: 0.1rem;
 }
 
@@ -1120,7 +1121,7 @@ body {
   border-color: #fff;
   color: #fff;
   text-decoration: none;
-  padding: 5%;
+  padding: 1%;
 }
 
 .mail-btn:hover {
@@ -1135,39 +1136,33 @@ body {
 }
 
 .shoot-icon {
-  margin-left: 5%;
+  margin-left: 1%;
 }
 
-.contact-title {
-  font-size: 1.7rem;
-}
-
-.mail-icon, .phone-icon {
-  margin-left: 7%;
-}
-
-.or-text {
-  font-size: 1.5rem;
-  margin: 20% 0;
-}
-
-.contact-info {
-  font-size: 1.3rem;
-  letter-spacing: 0.1rem;
-}
-
-@media (max-width: 1350px) {
-  .contact-col {
+@media (max-width: 1450px) {
+  .contact-div {
     margin-top: 10%;
   }
-  .contact-title {
-    font-size: 1.5rem;
+  .contact-tagline {
+    margin-bottom: 3%;
   }
-  .contact-info {
-    font-size: 1.1rem;
+  .mail-btn {
+    padding: 1.5%;
   }
-  .mail-icon, .phone-icon {
-    margin-left: 3%;
+}
+
+@media (max-width: 992px) {
+  .contact-col {
+    margin-top: 5%;
+  }
+  .contact-tagline {
+    margin-bottom: 5%;
+  }
+  .mail-btn {
+    padding: 2%;
+  }
+  .contact-div {
+    margin-top: 5%;
   }
 }
 
@@ -1183,17 +1178,13 @@ body {
     margin-bottom: 5%;
   }
   .contact-tagline {
-    font-size: 1.5rem;
-  }
-  .shoot-text {
-    font-size: 1.2rem;
+    margin-bottom: 10%;
   }
   .contact-col {
-    margin-top: 20%;
-    text-align: center;
+    margin-top: 10%;
   }
-  .or-text {
-    margin: 15% 0;
+  .mail-btn {
+    padding: 3%;
   }
 }
 
