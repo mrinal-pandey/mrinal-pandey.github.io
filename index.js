@@ -1,5 +1,5 @@
 // Fade in the name
-$("#name").hide().text("mrinal-pandey").fadeIn(3000);
+$("#name").hide().text("Mrinal Pandey").fadeIn(3000);
 
 // To create a typing animation
 const oneLiner = "a zealous techie";
