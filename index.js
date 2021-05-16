@@ -14,4 +14,4 @@ var timer = setInterval(function() {
 
 // Display current year in footer
 const currentYear = new Date().getFullYear();
-$(".footer-text").text("Images © 2017-" + currentYear + " Mrinal Pandey");
+$(".footer-text").text("Images © " + currentYear + " Mrinal Pandey");
