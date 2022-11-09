@@ -1,5 +1,5 @@
 # mrinal-pandey.github.io
-My personal site, Hosted at -> https://mrinal-pandey.github.io
+My personal site
 
 <h3>TODO:</h3>
 <ul>
